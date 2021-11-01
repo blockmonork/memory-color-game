@@ -1,0 +1,157 @@
+html, body { 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family:Courier;
+}
+h1 {
+	font-weight:lighter;
+	font-size:37px;
+	color:#efefef;
+	text-align:center;
+	text-shadow:1px 1px 1px black;
+}
+.contador {
+	position:relative;
+	bottom:0;
+	left:0;
+	margin:25px auto;
+	font-family:courier;
+	font-size:13pt;
+	color:white;
+	text-align:center;
+	text-shadow:1px 1px 1px #000;
+	background:silver;
+	border-top:1px dotted gray;
+	width:100%;
+	padding:5px 0 5px 0;
+}
+input {
+	padding: 2px 2px 5px 2px;
+}
+input, select{
+	border:1px solid gray;
+}
+a {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+a:hover {
+	text-decoration:none;
+}
+#site {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#conteudo {
+	position:relative;
+	top:15px;
+	width:600px; 
+	margin:0 auto;
+}
+/*** GAME ***/
+#Loader {
+	width:250px;
+	height:50px;
+	margin:0 auto;
+}
+#game_menu {
+	width:450px;
+	background:black;
+	margin:0 auto 15px;
+	font-size:13px;
+}
+#game_menu a, #game_menu span {
+	border:1px solid black;
+	color:white;
+	text-decoration:none;
+	padding:3px;
+	background:black;
+}
+.active, a.active, #game_menu a:hover {
+	color:black !important;
+	background:white !important;
+}
+#memory_game {
+	position:relative;
+	margin:0 auto;
+	padding:5px;
+}
+.fase1 {
+	width:310px;
+	height:250px;
+}
+.fase2 {
+	width:515px;
+	height:300px;
+}
+#memory_game p, #memory_game h3 {
+	text-align:center;
+}
+#memory_game h3 {
+	font-size:2em;
+	color:white;
+	text-shadow:1px 1px 1px #000;
+	background:silver;
+	border-bottom:1px dotted gray;
+	border-radius:50px;
+	radius:50px;
+	margin:0 auto;
+	width:80px;
+	height:80px;
+	line-height:80px;
+}
+.item, .item_done {
+	width:50px;
+	height:50px;
+	padding:3px;
+	margin:2px;
+	background:white;
+	display:inline;
+	float:left;
+	cursor:pointer;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: 	all .4s ease-in-out;
+	-ms-transition: 	all .4s ease-in-out;
+	-o-transition: 		all .4s ease-in-out;
+	-transition: 		all .4s ease-in-out;
+	transition: 		all .4s ease-in-out;
+}
+.item {
+	border:1px solid white;
+}
+.item_done {
+	border:1px solid black;
+}
+.item span, .item_done span {
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 2px #000;
+	line-height:50px;
+}
+.item span {
+	font-size:40px;
+}
+.item_done span {
+	font-size:20px;
+}
+#debug {
+	position:absolute;
+	top:0;
+	left:0;
+	background:red;
+	color:white;
+	width:300px;
+	height:550px;	
+	overflow:auto;
+}
